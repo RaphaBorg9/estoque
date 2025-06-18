@@ -11,12 +11,14 @@ package br.edu.ifms.estoque.dto;
 public class TipoLogradouroResponse {
     private Long id;
     private String nome;
+    private String sigla;
 
     public TipoLogradouroResponse() {
     }
 
-    public TipoLogradouroResponse(Long id, String nome) {
+    public TipoLogradouroResponse(Long id, String nome, String sigla) {
         this.id = id;
+        this.sigla = sigla;
         this.nome = nome;
     }
 

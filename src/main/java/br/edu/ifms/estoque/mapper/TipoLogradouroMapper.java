@@ -16,6 +16,10 @@ import java.util.stream.Collectors;
  */
 public class TipoLogradouroMapper {
     
+    public static TipoLogradouro toEntity( 
+           CreateTipoLogradouro
+    )
+    
     public static TipoLogradouroResponse toDto(
             TipoLogradouro entity
     ) {
